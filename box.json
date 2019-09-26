@@ -1,57 +1,57 @@
 {
-    "author":"",
-    "bugs":"",
-    "changelog":"",
-    "contributors":[],
-    "dependencies":{},
-    "description":"",
-    "devDependencies":{},
-    "documentation":"",
-    "homepage":"",
-    "ignore":[
-        "**/.*",
-        "/test/",
-        "/tests/"
-    ],
-    "installPaths":{},
-    "instructions":"",
-    "keywords":[],
-    "license":[
-        {
-            "type":"",
-            "URL":""
-        }
-    ],
-    "location":"ForgeboxStorage",
-    "name":"lobcfc",
-    "private":false,
-    "projectURL":"",
-    "repository":{
-        "type":"",
-        "URL":""
-    },
-    "scripts":{},
-    "shortDescription":"A CFML wrapper for the Lob API. Wrap the Lob API to verify addresses and send physical mail programmatically.",
-    "slug":"lobcfc",
-    "testbox":{
-        "bundles":"",
-        "directory":"tests.specs",
-        "labels":"",
-        "options":{},
-        "recurse":true,
-        "reporter":"",
-        "runner":[
-            {
-                "default":""
-            }
-        ],
-        "testBundles":"",
-        "testSpecs":"",
-        "testSuites":"",
-        "verbose":true,
-        "watchDelay":500,
-        "watchPaths":"**.cfc"
-    },
-    "type":"modules",
-    "version":"0.0.0"
+  "name": "lobcfc",
+  "version": "0.1.0",
+  "author": "Matthew Clemente <mjclemente@gmail.com>",
+  "location": "mjclemente/lobcfc#v0.1.0",
+  "homepage": "https://github.com/mjclemente/lobcfc",
+  "repository": {
+    "type": "git",
+    "URL": "https://github.com/mjclemente/lobcfc"
+  },
+  "bugs":"https://github.com/mjclemente/lobcfc/issues",
+  "slug": "lobcfc",
+  "changelog":"",
+  "contributors":[],
+  "dependencies":{},
+  "description":"",
+  "devDependencies":{},
+  "documentation":"",
+  "ignore":[
+      "**/.*",
+      "/test/",
+      "/tests/"
+  ],
+  "installPaths":{},
+  "instructions":"",
+  "keywords":["lob","api","addresses","letters","postcards"],
+  "license":[
+      {
+          "type":"MIT",
+          "URL":"https://github.com/mjclemente/lobcfc/blob/master/LICENSE"
+      }
+  ],
+  "private":false,
+  "projectURL":"",
+  "scripts":{},
+  "shortDescription":"A CFML wrapper for the Lob API. Wrap the Lob API to verify addresses and send physical mail programmatically.",
+  "testbox":{
+      "bundles":"",
+      "directory":"tests.specs",
+      "labels":"",
+      "options":{},
+      "recurse":true,
+      "reporter":"",
+      "runner":[
+          {
+              "default":""
+          }
+      ],
+      "testBundles":"",
+      "testSpecs":"",
+      "testSuites":"",
+      "verbose":true,
+      "watchDelay":500,
+      "watchPaths":"**.cfc"
+  },
+  "type":"modules"
 }
