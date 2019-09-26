@@ -38,7 +38,7 @@ Creates a new address object. The address parameter should be an instance of the
 #### `deleteAddress( required string id )`
 Permanently deletes an address. It cannot be undone.
 
-#### `listAddresses( numeric offset = 0, numeric limit, boolean includeTotal, struct metadata, struct dateFilter )`
+#### `listAddresses( struct params = {} )`
 Returns a list of your addresses. The addresses are returned sorted by creation date, with the most recently created addresses appearing first.
 
 #### `createPostcard( required string id )`

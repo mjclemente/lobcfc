@@ -78,9 +78,7 @@ component displayname="lobcfc"  {
   * https://lob.com/docs#addresses_list
   * @hint Returns a list of your addresses. The addresses are returned sorted by creation date, with the most recently created addresses appearing first.
   */
-  public struct function listAddresses( numeric offset = 0, numeric limit, boolean includeTotal, struct metadata, struct dateFilter ) {
-    var params = {};
-    //handle param argument construction
+  public struct function listAddresses( struct params = {} ) {
     return apiCall( 'GET', '/addresses', params );
   }
 
