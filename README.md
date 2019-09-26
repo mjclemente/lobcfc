@@ -2,7 +2,7 @@
 A CFML wrapper for the [Lob API](https://lob.com/docs).  
 Wrap the Lob API to verify addresses and send physical mail programmatically.
 
-*This is an early stage wrapper, initially developed for a conference demo. Feel free to use the issue tracker to report bugs or suggest improvements!*
+***This is an early stage wrapper, initially developed for a conference demo**. Feel free to use the issue tracker to report bugs or suggest improvements!*
 
 ### Acknowledgements
 
