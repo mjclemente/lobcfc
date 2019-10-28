@@ -176,8 +176,6 @@ component displayname="lobcfc"  {
       ? ( '?' & parseQueryParams( queryParams, false ) )
       : '' );
 
-    var requestHeaders = parseHeaders( headers );
-
     cfhttp( url = fullPath, method = httpMethod, username = !variables.forceTestMode ? variables.live_apiKey : variables.test_apiKey, password = '', result = 'result' ) {
 
       if ( isJsonPayload( headers ) ) {
