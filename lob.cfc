@@ -5,7 +5,7 @@
 */
 component displayname="lobcfc"  {
 
-  variables._lobcfc_version = '0.1.0';
+  variables._lobcfc_version = '0.1.2';
 
   public any function init(
     string live_apiKey = '',
