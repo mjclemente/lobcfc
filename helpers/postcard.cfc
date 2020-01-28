@@ -1,6 +1,6 @@
 /**
 * lobcfc
-* Copyright 2018  Matthew J. Clemente, John Berquist
+* Copyright 2019-2020  Matthew J. Clemente, John Berquist
 * Licensed under MIT (https://mit-license.org)
 */
 component accessors="true" {
