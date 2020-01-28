@@ -12,7 +12,8 @@ component displayname="lobcfc"  {
     string test_apiKey = '',
     boolean forceTestMode = false,
     string baseUrl = "https://api.lob.com/v1",
-    boolean includeRaw = false ) {
+    boolean includeRaw = false,
+    numeric httpTimeout = 50 ) {
 
     structAppend( variables, arguments );
 
@@ -176,7 +177,7 @@ component displayname="lobcfc"  {
       ? ( '?' & parseQueryParams( queryParams, false ) )
       : '' );
 
-    cfhttp( url = fullPath, method = httpMethod, username = !variables.forceTestMode ? variables.live_apiKey : variables.test_apiKey, password = '', result = 'result' ) {
+    cfhttp( url = fullPath, method = httpMethod, username = !variables.forceTestMode ? variables.live_apiKey : variables.test_apiKey, password = '', result = 'result', timeout = variables.httpTimeout ) {
 
       if ( isJsonPayload( headers ) ) {
 
